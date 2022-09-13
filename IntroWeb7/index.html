@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Index</title><!-- Appears in the tab at the top -->
+    </head>
+    <body>
+        <!--creates box for entering your name as well as prompt-->
+        <input id="name-input" type="text" placeholder="Enter your name" />
+<!--creates the link to click on after entering your name-->
+<button id="my-button">Click Me</button>
+
+<!-- method for responding to the button being clicked, as long as there is a value entered, the page will respond with hello -->
+<script>
+  var myButton = document.querySelector('#my-button');
+  var nameInput = document.querySelector('#name-input');
+  myButton.addEventListener('click', function () {
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
+    </body>
+</html>

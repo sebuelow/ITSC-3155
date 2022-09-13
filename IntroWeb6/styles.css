@@ -1,0 +1,14 @@
+#main-title{
+    text-align: center;
+}
+
+body{
+    background-color: lightcoral;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.content{
+    margin-bottom: 12px;
+}
+
+
